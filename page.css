@@ -1,0 +1,110 @@
+html{
+    overflow-x: hidden;
+}
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+#startnav a{
+    text-decoration: none;
+    color: black;
+}
+#mainnav{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    position:sticky;
+    top: 0px;
+}
+#startnav{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+#startnav li{
+    padding: 8px;
+
+}
+#endnav a{
+    padding: 25px;
+
+}
+#midnav img{
+    width: 170px;
+}
+
+/* ===================================end navbar=================================== */
+
+ 
+#shops{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+ }
+#page1{
+    font-weight: bold;
+    font-size: 30px;
+ }
+ #shops #shops1 a{
+    text-decoration: none;
+    color: rgb(115, 108, 108); 
+    background-color: white;
+    padding: 10px;
+ }
+ #shops #shops1 a:hover{
+    color: black;
+    background-color: rgb(206, 201, 201);
+ }
+ #shops1 div{
+    padding: 20px;
+ }
+
+ 
+/* #shops2 img:hover{
+    scale: 1.1;
+    transition: 0.8s;
+} */
+/* ====================================end shops page================================ */
+#store{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#our{
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+}
+#store2 div{
+    padding: 15px;
+    font-weight: bold;
+}
+#line{
+    font-size: 20px;
+}
+
+
+
+
+/* ================================================================================= */
+#footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    border: 2px solid rgb(186, 184, 184);
+}
+#footer div{
+    padding: 10px;
+}
+#footer1{
+    font-size: 40px;
+    font-weight: bold;
+}
+#email input{
+    font-size: 30px;
+}

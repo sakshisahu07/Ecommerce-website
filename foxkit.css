@@ -1,0 +1,83 @@
+html{
+    overflow-x: hidden;
+}
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+#startnav a{
+    text-decoration: none;
+    color: black;
+}
+#mainnav{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    position:sticky;
+    top: 0px;
+}
+#startnav{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+#startnav li{
+    padding: 8px;
+
+}
+#endnav a{
+    padding: 25px;
+
+}
+#midnav img{
+    width: 170px;
+}
+
+/* ===================================end navbar=================================== */
+#sho{
+    font-size: 20px;
+}
+#item{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+#item1 img{
+    width: 180px;
+}
+#item1 img:hover{
+     scale: 1.1;
+     transition: 0.5s;
+}
+#item1{
+    width: 250px;
+    height: 200px;
+    overflow-x: hidden;
+    border: 1px solid white;
+}
+#duv{
+    font-weight: bold;
+    font-size: 30px;}
+/* ================================================================================= */
+#footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    border: 2px solid rgb(186, 184, 184);
+}
+#footer div{
+    padding: 10px;
+}
+#footer1{
+    font-size: 40px;
+    font-weight: bold;
+}
+#email input{
+    font-size: 30px;
+}
